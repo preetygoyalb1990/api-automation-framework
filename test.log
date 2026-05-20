@@ -1,0 +1,117 @@
+2026-05-16 13:21:00,605 - INFO - Opening login page
+2026-05-16 13:21:01,916 - INFO - Entering valid username
+2026-05-16 13:21:01,947 - INFO - Entering valid password
+2026-05-16 13:21:01,963 - INFO - Clicking login button
+2026-05-16 13:21:02,251 - INFO - Verifying secure area heading
+2026-05-16 13:21:03,346 - INFO - Opening login page
+2026-05-16 13:21:04,624 - INFO - Entering valid username
+2026-05-16 13:21:04,658 - INFO - Entering wrong password
+2026-05-16 13:21:04,670 - INFO - Clicking login button
+2026-05-16 13:21:04,924 - INFO - Verifying invalid password error message
+2026-05-16 13:35:09,138 - INFO - Opening login page
+2026-05-16 13:35:10,422 - INFO - Entering valid username
+2026-05-16 13:35:10,453 - INFO - Entering valid password
+2026-05-16 13:35:10,483 - INFO - Clicking login button
+2026-05-16 13:35:10,735 - INFO - Verifying secure area heading
+2026-05-16 13:35:10,776 - INFO - Login successful
+2026-05-16 13:35:11,831 - INFO - Opening login page
+2026-05-16 13:35:13,097 - INFO - Entering valid username
+2026-05-16 13:35:13,132 - INFO - Entering wrong password
+2026-05-16 13:35:13,145 - INFO - Clicking login button
+2026-05-16 13:35:13,392 - INFO - Verifying invalid password error message
+2026-05-16 22:36:16,394 - INFO - Opening login page
+2026-05-16 22:36:17,863 - INFO - Entering valid username
+2026-05-16 22:36:17,893 - INFO - Entering valid password
+2026-05-16 22:36:17,905 - INFO - Clicking login button
+2026-05-16 22:36:18,163 - INFO - Verifying secure area heading
+2026-05-16 22:36:18,198 - INFO - Login successful
+2026-05-16 22:36:19,209 - INFO - Opening login page
+2026-05-16 22:36:20,745 - INFO - Entering valid username
+2026-05-16 22:36:20,778 - INFO - Entering wrong password
+2026-05-16 22:36:20,790 - INFO - Clicking login button
+2026-05-16 22:36:21,047 - INFO - Verifying invalid password error message
+2026-05-16 22:49:21,291 - INFO - Sending GET request
+2026-05-16 22:49:21,577 - INFO - Status code: 200
+2026-05-16 22:58:29,621 - INFO - Sending GET request
+2026-05-16 22:58:29,933 - INFO - Status code: 200
+2026-05-16 23:02:44,129 - INFO - Sending GET request
+2026-05-16 23:02:44,464 - INFO - Status code: 200
+2026-05-16 23:03:01,440 - INFO - Sending GET request
+2026-05-16 23:03:01,758 - INFO - Status code: 200
+2026-05-17 14:01:50,763 - INFO - Sending GET request
+2026-05-17 14:01:51,075 - INFO - Status code: 200
+2026-05-17 14:01:51,075 - INFO - Validating response data
+2026-05-17 14:05:56,104 - INFO - Sending GET request
+2026-05-17 14:05:56,444 - INFO - Status code: 200
+2026-05-17 14:05:56,444 - INFO - Validating response data
+2026-05-17 14:07:03,241 - INFO - Sending GET request
+2026-05-17 14:07:03,523 - INFO - Status code: 200
+2026-05-17 14:07:03,523 - INFO - Validating response data
+2026-05-19 15:35:57,323 - INFO - Sending GET request to users API
+2026-05-19 15:35:57,822 - INFO - Response status code: 200
+2026-05-19 21:04:59,492 - INFO - Sending GET request to users API
+2026-05-19 21:04:59,965 - INFO - Response status code: 200
+2026-05-19 21:04:59,971 - INFO - Sending POST request to create user
+2026-05-19 21:05:00,501 - INFO - Response status code: 201
+2026-05-19 21:43:32,459 - INFO - Sending GET request to users API
+2026-05-19 21:43:32,769 - INFO - Response status code: 200
+2026-05-19 21:43:32,775 - INFO - Sending POST request to create user
+2026-05-19 21:43:33,252 - INFO - Response status code: 201
+2026-05-19 21:43:33,258 - INFO - Sending PUT request to update user 1
+2026-05-19 21:43:33,802 - INFO - Response status code: 200
+2026-05-19 22:08:10,031 - INFO - Sending GET request to users API
+2026-05-19 22:08:10,734 - INFO - Response status code: 200
+2026-05-19 22:08:10,740 - INFO - Sending POST request to create user
+2026-05-19 22:08:11,654 - INFO - Response status code: 201
+2026-05-19 22:08:11,659 - INFO - Sending PUT request to update user 1
+2026-05-19 22:08:12,473 - INFO - Response status code: 200
+2026-05-19 22:08:12,480 - INFO - Sending DELETE request for user 1
+2026-05-19 22:08:13,293 - INFO - Response status code: 200
+2026-05-19 22:12:17,665 - INFO - Sending GET request to users API
+2026-05-19 22:12:18,130 - INFO - Response status code: 200
+2026-05-19 22:12:18,158 - INFO - Sending POST request to create user
+2026-05-19 22:12:18,943 - INFO - Response status code: 201
+2026-05-19 22:12:18,953 - INFO - Sending PUT request to update user 1
+2026-05-19 22:12:19,806 - INFO - Response status code: 200
+2026-05-19 22:12:19,815 - INFO - Sending DELETE request for user 1
+2026-05-19 22:12:20,551 - INFO - Response status code: 200
+2026-05-20 09:39:22,438 - INFO - Sending GET request to users API
+2026-05-20 09:39:22,745 - INFO - Response status code: 200
+2026-05-20 09:39:22,750 - INFO - Sending POST request to create user
+2026-05-20 09:39:23,222 - INFO - Response status code: 201
+2026-05-20 09:39:23,226 - INFO - Sending PUT request to update user 1
+2026-05-20 09:39:23,721 - INFO - Response status code: 200
+2026-05-20 09:39:23,724 - INFO - Sending DELETE request for user 1
+2026-05-20 09:39:24,042 - INFO - Response status code: 200
+2026-05-20 09:40:12,881 - INFO - Sending GET request to users API
+2026-05-20 09:40:13,587 - INFO - Response status code: 200
+2026-05-20 09:40:13,594 - INFO - Sending POST request to create user
+2026-05-20 09:40:14,105 - INFO - Response status code: 201
+2026-05-20 09:40:14,115 - INFO - Sending PUT request to update user 1
+2026-05-20 09:40:14,634 - INFO - Response status code: 200
+2026-05-20 09:40:14,640 - INFO - Sending DELETE request for user 1
+2026-05-20 09:40:15,170 - INFO - Response status code: 200
+2026-05-20 11:45:19,627 - INFO - Sending GET request to users API
+2026-05-20 11:45:19,942 - INFO - Response status code: 200
+2026-05-20 11:45:19,951 - INFO - Sending POST request to create user
+2026-05-20 11:45:20,283 - INFO - Response status code: 201
+2026-05-20 11:45:20,292 - INFO - Sending PUT request to update user 1
+2026-05-20 11:45:20,781 - INFO - Response status code: 200
+2026-05-20 11:45:20,790 - INFO - Sending DELETE request for user 1
+2026-05-20 11:45:21,118 - INFO - Response status code: 200
+2026-05-20 11:59:29,223 - INFO - Sending GET request to users API
+2026-05-20 11:59:29,680 - INFO - Response status code: 200
+2026-05-20 11:59:29,707 - INFO - Sending POST request to create user
+2026-05-20 11:59:30,176 - INFO - Response status code: 201
+2026-05-20 11:59:30,186 - INFO - Sending PUT request to update user 1
+2026-05-20 11:59:30,800 - INFO - Response status code: 200
+2026-05-20 11:59:30,809 - INFO - Sending DELETE request for user 1
+2026-05-20 11:59:31,790 - INFO - Response status code: 200
+2026-05-20 12:15:47,978 - INFO - Sending GET request to users API
+2026-05-20 12:15:48,515 - INFO - Response status code: 200
+2026-05-20 12:15:48,547 - INFO - Sending POST request to create user
+2026-05-20 12:15:49,281 - INFO - Response status code: 201
+2026-05-20 12:15:49,292 - INFO - Sending PUT request to update user 1
+2026-05-20 12:15:50,029 - INFO - Response status code: 200
+2026-05-20 12:15:50,039 - INFO - Sending DELETE request for user 1
+2026-05-20 12:15:50,472 - INFO - Response status code: 200

@@ -1,0 +1,2 @@
+[32mINFO    [0m automation_logger:api_client.py:16 Sending GET request to users API
+[32mINFO    [0m automation_logger:api_client.py:23 Response status code: 200

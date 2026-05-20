@@ -1,24 +1,70 @@
-from playwright.sync_api import sync_playwright
+import allure
+from logger_config import logger   # <-- ADDED
+from pages.login_page import LoginPage
 
 
-def test_login():
+@allure.feature("Login")
+@allure.story("Valid credentials")
+@allure.title("Valid login test")
+@allure.description("Verify user can login with correct username and password")
+@allure.severity(allure.severity_level.CRITICAL)
+def test_valid_login(page):
 
-    with sync_playwright() as p:
+    login_page = LoginPage(page)
 
-        browser = p.chromium.launch(headless=True)
+    with allure.step("Open login page"):
+        logger.info("Opening login page")   # <-- ADDED
+        login_page.open_login_page()
 
-        page = browser.new_page()
+    with allure.step("Enter valid username"):
+        logger.info("Entering valid username")   # <-- ADDED
+        login_page.enter_username("tomsmith")
 
-        page.goto("https://the-internet.herokuapp.com/login")
+    with allure.step("Enter valid password"):
+        logger.info("Entering valid password")   # <-- ADDED
+        login_page.enter_password("SuperSecretPassword!")
 
-        page.fill("#username", "tomsmith")
+    with allure.step("Click login button"):
+        logger.info("Clicking login button")   # <-- ADDED
+        login_page.click_login()
 
-        page.fill("#password", "SuperSecretPassword!")
+    with allure.step("Verify Secure Area page is displayed"):
+       logger.info("Verifying secure area heading")
 
-        page.click("button[type='submit']")
+    try:
+        assert "Secure Area" in login_page.get_heading()
+        logger.info("Login successful")
 
-        assert "Secure Area" in page.locator("h2").text_content()
+    except AssertionError:
+        logger.error("Secure Area heading not found")
+        raise
 
-        print("Test Passed")
 
-        browser.close()
+@allure.feature("Login")
+@allure.story("Invalid password")
+@allure.title("Invalid password test")
+@allure.description("Verify error message appears when user enters wrong password")
+@allure.severity(allure.severity_level.NORMAL)
+def test_invalid_password(page):
+
+    login_page = LoginPage(page)
+
+    with allure.step("Open login page"):
+        logger.info("Opening login page")   # <-- ADDED
+        login_page.open_login_page()
+
+    with allure.step("Enter valid username"):
+        logger.info("Entering valid username")   # <-- ADDED
+        login_page.enter_username("tomsmith")
+
+    with allure.step("Enter wrong password"):
+        logger.info("Entering wrong password")   # <-- ADDED
+        login_page.enter_password("wrongpassword")
+
+    with allure.step("Click login button"):
+        logger.info("Clicking login button")   # <-- ADDED
+        login_page.click_login()
+
+    with allure.step("Verify invalid password error message"):
+        logger.info("Verifying invalid password error message")   # <-- ADDED
+        assert "Your password is invalid!" in login_page.get_error_message()

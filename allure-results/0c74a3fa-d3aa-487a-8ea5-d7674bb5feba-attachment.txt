@@ -1,0 +1,2 @@
+[32mINFO    [0m automation_logger:api_client.py:57 Sending DELETE request for user 1
+[32mINFO    [0m automation_logger:api_client.py:64 Response status code: 200
