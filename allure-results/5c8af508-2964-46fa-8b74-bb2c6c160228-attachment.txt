@@ -1,2 +1,0 @@
-[32mINFO    [0m automation_logger:api_client.py:43 Sending PUT request to update user 1
-[32mINFO    [0m automation_logger:api_client.py:51 Response status code: 200

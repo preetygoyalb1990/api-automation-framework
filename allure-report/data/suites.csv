@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Verify user can login with correct username and password","1744","Valid login test","tests","2026-05-16","passed","2026-05-16","","test_login","",""
-"Verify error message appears when user enters wrong password","1876","Invalid password test","tests","2026-05-16","passed","2026-05-16","","test_login","",""

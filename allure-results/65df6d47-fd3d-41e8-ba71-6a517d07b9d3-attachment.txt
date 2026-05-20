@@ -1,2 +1,0 @@
-[32mINFO    [0m automation_logger:api_client.py:29 Sending POST request to create user
-[32mINFO    [0m automation_logger:api_client.py:37 Response status code: 201
