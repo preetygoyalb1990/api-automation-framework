@@ -26,7 +26,7 @@ jobs:
       run: python -m playwright install --with-deps
 
     - name: Run Playwright tests
-      run: python -m pytest --html=report.html
+      run: python -m pytest api_framework/tests_api -v --html=report.html
 
     - name: Upload Test Report
       if: always()
